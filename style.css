@@ -12,4 +12,6 @@ body {
 
 p h1 h2 h3 { position: center; } 
 h1 { color: purple}
-h2 { color: green} 
+p { color: green} 
+h2 { colot: purple}
+h3 { color: green}
