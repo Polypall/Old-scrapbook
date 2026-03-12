@@ -3,4 +3,13 @@ body {
     background-color: purple; /* Fallback color if the image cannot be loaded */
 }
 
-title { position: center;} 
+.container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  height: 100vh;           /* Sets the container height (e.g., full screen) */
+}
+
+p h1 h2 h3 { position: center; } 
+h1 { color: purple}
+h2 { color: green} 
