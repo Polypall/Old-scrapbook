@@ -5,12 +5,18 @@ body {
 
 .container {
   display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center;     /* Centers vertically */
-  height: 100vh;           /* Sets the container height (e.g., full screen) */
+  justify-content: center;     /* horizontal centering */
+  align-items: center;         /* vertical centering */
+  height: 100vh;
+  flex-direction: column;      /* ← add this if you want vertical stacking */
+  text-align: center;          /* ← centers text inside children */
 }
 
-p h1 h2 h3 { position: center; } 
+h1, h2, h3, p {
+  margin: 0.5em 0;             /* optional – nicer spacing */
+  /* No need for position at all */
+}
+
 h1 { color: purple}
 p { color: green} 
 h2 { colot: purple}
