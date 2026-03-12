@@ -1,0 +1,4 @@
+body {
+    background-image: url("https://i.postimg.cc/SxzL1Zz3/scrapbookbg.png");
+    background-color: purple; /* Fallback color if the image cannot be loaded */
+}
