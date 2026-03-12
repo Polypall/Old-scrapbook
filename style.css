@@ -3,20 +3,6 @@ body {
     background-color: purple; /* Fallback color if the image cannot be loaded */
 }
 
-.container {
-  display: flex;
-  justify-content: center;     /* horizontal centering */
-  align-items: center;         /* vertical centering */
-  height: 100vh;
-  flex-direction: column;      /* ← add this if you want vertical stacking */
-  text-align: center;          /* ← centers text inside children */
-}
-
-h1, h2, h3, p {
-  margin: 0.5em 0;             /* optional – nicer spacing */
-  /* No need for position at all */
-}
-
 h1 { color: purple}
 p { color: green} 
 h2 { colot: purple}
