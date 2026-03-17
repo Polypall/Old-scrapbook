@@ -1,4 +1,4 @@
-body { background-image: url("https://i.postimg.cc/SxzL1Zz3/scrapbookbg.png");
+
   background-size: 100% 100%;             /* fills screen nicely */
   background-position: center center cover;
   background-repeat: no-repeat;
@@ -64,10 +64,61 @@ p {
       background-attatchment: fixed;
   font-family: Arial, Helvetica, sans-serif; /* nicer default font */
 }
-.coolsmart{ background-image: url("https://i.postimg.cc/4NX16tXZ/Copy-of-Copy-of-Untitled-Design.png");
+
+.coolsmart { background-image: url("https://i.postimg.cc/4NX16tXZ/Copy-of-Copy-of-Untitled-Design.png");
   background-size: 100% 100%;             /* fills screen nicely */
   background-position: center center cover;
   background-repeat: repeat;
       background-attatchment: fixed;
-  font-family: Arial, Helvetica, sans-serif; /* nicer default font */
+}
+
+p h1 h2 h3 { position: center; } 
+h1 { color: purple;}
+p { color: green;} 
+h2 { colot: purple;}
+h3 { color: green;}
+
+/* Reset defaults and make full height work */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* The centering container – MUST wrap your content */
+.coolsmart{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;     /* vertical center in viewport */
+  align-items: center;         /* horizontal center */
+  min-height: 100vh;           /* at least full screen – use min- so it can grow */
+  text-align: center;
+  gap: 1.5rem;                 /* space between title, images, paragraphs */
+  padding: 1rem;               /* breathing room on edges */
+}
+
+/* Images: keep proportions, center them, make responsive */
+img {
+  max-width: 100%;             /* never overflow screen */
+  height: auto;                /* preserve aspect ratio */
+  display: block;              /* remove bottom gap */
+  border: dotted; border-color: purple green;     /* optional: polaroid-style border */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4); /* optional: depth */
+  border-radius: 8px;
+}
+
+/* Text styling */
+h1 {
+  color: purple;
+  margin: 0.4em 0;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3); /* helps readability on bg */
+}
+
+p {
+  color: green;
+  margin: 0.6em 0;
+  max-width: 700px;            /* prevents super wide lines */
+  font-size: 1.3rem;
+  line-height: 1.5;
 }
