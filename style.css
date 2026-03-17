@@ -64,3 +64,10 @@ p {
       background-attatchment: fixed;
   font-family: Arial, Helvetica, sans-serif; /* nicer default font */
 }
+.coolsmart{ background-image: url("https://i.postimg.cc/4NX16tXZ/Copy-of-Copy-of-Untitled-Design.png");
+  background-size: 100% 100%;             /* fills screen nicely */
+  background-position: center center cover;
+  background-repeat: repeat;
+      background-attatchment: fixed;
+  font-family: Arial, Helvetica, sans-serif; /* nicer default font */
+}
