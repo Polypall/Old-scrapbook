@@ -56,16 +56,3 @@ p {
   font-size: 1.3rem;
   line-height: 1.5;
 }
-
-/* The centering container – MUST wrap your content */
-.nextpage {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;     /* vertical center in viewport */
-  align-items: center;         /* horizontal center */
-  min-height: 100vh;           /* at least full screen – use min- so it can grow */
-  text-align: center;
-  gap: 1.5rem;                 /* space between title, images, paragraphs */
-  padding: 1rem;               /* breathing room on edges */
-}
-
